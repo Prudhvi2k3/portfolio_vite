@@ -6,23 +6,23 @@ import { GraduationCap, Award, Book } from 'lucide-react';
 const education = [
   {
     degree: "Bachelor of Technology",
-    school: "Kakinada Institute of  Engineering and Technology",
-    year: "2021 - 2025",
-    description: "Pursuing my Bachelor's Degree in Computer Science (Data Science) at Kiet group of Institutions, I'm gaining in-depth knowledge in areas like Data Science, Machine Learning and Web Development. With a GPA of 7.8",
+    school: "Kakinada Institute of Engineering and Technology",
+    year: "Dec 2021 - May 2025",
+    description: "Computer Science with specialization in Full-stack development and Machine Learning. Gaining expertise in MERN stack, cloud technologies, and advanced ML systems. GPA: 7.84",
     icon: GraduationCap
   },
   {
-    degree: "Intermediate",
+    degree: "Intermediate in MPC",
     school: "Sri Chaitanya Junior College",
-    year: "2019 - 2021",
-    description: "I completed my Intermediate at Sri Chaitanya Junior College in the group of MPC",
+    year: "Jun 2019 - May 2021",
+    description: "Completed Intermediate education in Mathematics, Physics, and Chemistry. Percentage: 86%",
     icon: Award
   },
   {
     degree: "High School",
     school: "Sree Balaji High School",
-    year: "2006 - 2019",
-    description: "I completed my Schooling at Sree Balaji High School",
+    year: "Jun 2018 - May 2019",
+    description: "Completed secondary education with strong foundation in core subjects. GPA: 9.5",
     icon: Book
   }
 ];

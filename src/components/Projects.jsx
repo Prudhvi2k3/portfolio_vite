@@ -10,44 +10,52 @@ import handgesture from '../assets/handgesture.jpg';
 
 const projects = [
   {
-    title: "K-Hub Website",
-    description: "Developed a comprehensive MERN stack web application for K-Hub to effectively showcase its mission and initiatives to a larger audience. Implemented a robust backend with an admin panel for content management and updates.",
+    title: "Digital Twin System - Water Utility Network",
+    description: "Designed and developed a comprehensive Digital Twin system for water utility networks to enhance real-time monitoring and predictive analytics. Integrated IoT sensor data with FastAPI backend and PostgreSQL database, implementing hydraulic modeling for failure simulations and predictive insights.",
     image: Hub,
-    tech: ["React", "Node.js", "MongoDB", "git"],
+    tech: ["FastAPI", "React", "PostgreSQL", "IoT", "TensorFlow"],
+    github: "#",
+    live: "#"
+  },
+  {
+    title: "Dev-Orbit: Project-Based Learning Platform",
+    description: "Full-stack web platform built with React.js, Node.js, and MongoDB to streamline student project development. Features user and admin dashboards, real-time chat, quiz/assignment management, integrated compiler, and AI chatbot assistance. Implemented certificate generation system with verification capabilities.",
+    image: Hub,
+    tech: ["React.js", "Node.js", "MongoDB", "Socket.io", "Express"],
+    github: "#",
+    live: "#"
+  },
+  {
+    title: "Crowd Monitoring with Computer Vision",
+    description: "Developed ML models for crowd density estimation and human activity recognition using real-time video data. Implemented deep learning pipelines leveraging CNN and transfer learning architectures for feature extraction and crowd behavior pattern analysis.",
+    image: handgesture,
+    tech: ["TensorFlow", "OpenCV", "CNN", "Python", "Computer Vision"],
+    github: "#",
+    live: "#"
+  },
+  {
+    title: "Real-time Facial Recognition System",
+    description: "Deployed facial recognition visitor counter with sentiment analysis using OpenCV and TensorFlow. Created web-based dashboards with Flask and React.js for real-time data visualization and analysis from computer vision systems.",
+    image: Data,
+    tech: ["TensorFlow", "OpenCV", "Flask", "React", "Python"],
+    github: "#",
+    live: "#"
+  },
+  {
+    title: "K-Hub Website",
+    description: "Comprehensive MERN stack web application showcasing K-Hub's mission and initiatives to a larger audience. Built robust backend with admin panel for content management, user authentication, and dynamic content updates.",
+    image: AugTask,
+    tech: ["React", "Node.js", "MongoDB", "Express", "Git"],
     github: "https://github.com/Prudhvi2k3/Project-K",
     live: "https://project-k-hub.onrender.com/"
   },
   {
-    title: "Virtual Mouse Using Hand Gesture",
-    description: "A hand gesture recognition system implemented using MediaPipe for hand tracking and Flask for web streaming. The system captures video from the webcam, processes it to detect hand gestures in real-time, and displays the live feed along with recognized gestures on a web interface.",
-    image: handgesture,
-    tech: ["Python", "Flask", "OpenCV", "MedaPipe"],
-    github: "https://github.com/Prudhvi2k3/virtual-mouse-using-hand-gesture",
-    live: "https://www.linkedin.com/posts/prudhvi-ankamreddi_gesturecontrol-computervision-pyautogui-activity-7256169573119336448-2EKD?utm_source=share&utm_medium=member_desktop"
-  },
-  {
-    title: "Data Visualization",
-    description: "Developed a Flask-based web application for interactive data visualization and Implemented a robust backend to handle dataset uploads and preprocessing.",
-    image: Data,
-    tech: ["Flask", "Pandas", "matplotlib", "Html", "CSS"],
-    github: "https://github.com/Prudhvi2k3/DataVisualizer",
-    live: "#"
-  },
-  {
-    title: "Data Analytics",
-    description: "K-Hub Development task is to create a single page React Application that shows the data analytics for a preloaded dataset. The backend is implemented using python and flask with, the data being stored in a Mongo database and the read through the use of PyMongo.",
-    image: AugTask,
-    tech: ["React" ,"Flask", "Pandas", "Seaborn"],
-    github: "https://github.com/Prudhvi2k3/K-Hub-Task/tree/main/AugTask",
-    live: "#"
-  },
-  {
-    title: "Environment themed Webpage",
-    description: "This project involves creating a webpage using React components. with the aim to design a responsive webpage with various components and content related to environment theme.",
+    title: "Hand Gesture Recognition System",
+    description: "Gesture control application using MediaPipe for hand tracking and Flask for web streaming. Captures video from webcam, processes to detect hand gestures in real-time, and displays recognized gestures on web interface.",
     image: NovTask,
-    tech: ["React" , "React-charts", "git"],
-    github: "https://github.com/Prudhvi2k3/K-Hub-Task/tree/main/NovTask",
-    live: "https://green-tech-project.onrender.com/"
+    tech: ["Python", "Flask", "OpenCV", "MediaPipe", "Computer Vision"],
+    github: "https://github.com/Prudhvi2k3/virtual-mouse-using-hand-gesture",
+    live: "https://www.linkedin.com/posts/prudhvi-ankamreddi_gesturecontrol-computervision-pyautogui-activity-7256169573119336448-2EKD"
   }
 ];
 

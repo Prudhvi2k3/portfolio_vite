@@ -1,28 +1,28 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code2, Palette, Server, Smartphone, Brain } from 'lucide-react';
+import { Code2, Server, Brain, Zap } from 'lucide-react';
 
 const skills = [
   {
     category: "Frontend Development",
     icon: Code2,
-    items: ["React", "js", "Html", "CSS"]
+    items: ["React.js", "JavaScript", "HTML", "CSS", "Tailwind CSS"]
   },
   {
     category: "Backend Development",
     icon: Server,
-    items: ["Node.js", "Python", "MongoDB", "PostgreSQL"]
+    items: ["Node.js", "FastAPI", "Flask", "PostgreSQL", "MongoDB"]
   },
   {
-    category: "Machine Learning",
+    category: "Machine Learning & Vision",
     icon: Brain,
-    items: ["Python", "Pandas", "Numpy", "Scikit-learn"]
+    items: ["TensorFlow", "PyTorch", "OpenCV", "CNN Models", "Scikit-learn"]
   },
   {
-    category: "UI/UX Design",
-    icon: Palette,
-    items: ["Figma", "Prototyping", "User Research"]
+    category: "Tools & Technologies",
+    icon: Zap,
+    items: ["Git/GitHub", "Docker", "Figma", "Google Colab", "VS Code"]
   }
 ];
 
