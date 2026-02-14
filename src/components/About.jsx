@@ -9,14 +9,14 @@ const timeline = [
     year: "Feb 2025 - Present",
     title: "Junior Research Engineer",
     company: "Smart City Living Lab, IIIT-Hyderabad",
-    description: "Developed Twin system for a water utility network, integrating IoT sensor data with a FastAPI backend and a PostgreSQL database. Implemented key features including hydraulic modeling for predictive analytics and failure simulations. Developed and deployed real-time facial recognition visitor counter and sentiment vision, utilizing technologies OpenCV, and TensorFlow. Contributed to an ML model for waste classification using computer vision. Designed and implemented web-based dashboards using Flask, FastAPI and React.js to visualize and analyze real-time data from computer vision systems.",
+    description: "Developed Digital Twin system for water utility networks with IoT integration and hydraulic modeling. Built real-time facial recognition counter and waste classification ML models. Designed web dashboards using Flask, FastAPI, and React.js for real-time data visualization.",
     icon: Code2
   },
   {
     year: "June 2024 - Jan 2025",
     title: "Research Intern",
     company: "Raj Reddy Center for Technology and Society, IIIT-Hyderabad",
-    description: "Designed and developed a dynamic website from scratch, and actively collaborated on machine learning projects, utilizing Technologies like Machine Learning, Python, React and Node.js. Designed, Developed and Deployed a Dynamic Website for K-Hub. Managed the full development lifecycle of Dev-Orbit, a web platform designed to support the Project-Nest college program, including frontend, backend, Restful APIs.",
+    description: "Collaborated on ML projects and web development using Python, React, and Node.js. Deployed dynamic website for K-Hub. Managed full development lifecycle of Dev-Orbit platform for Project-Nest college program.",
     icon: Briefcase
   }
 ];
