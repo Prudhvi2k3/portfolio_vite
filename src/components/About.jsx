@@ -117,11 +117,11 @@ export default function About() {
               >
                 Quick Bio
               </motion.h3>
-              <motion.p 
+              <motion.p
                 className="text-gray-600 dark:text-gray-400 leading-relaxed"
                 variants={itemVariants}
               >
-                Full-stack developer with a strong foundation in MERN stack technologies seeking a challenging role. Proficient in building robust web applications from frontend to backend. Passionate about leveraging machine learning, AI, and data science to create intelligent and usercentric solutions. Eager to contribute to innovative projects that combine technical expertise with problem-solving skills, Explore my work and skills here!
+                Full-stack developer proficient in MERN stack with expertise in building robust web applications from frontend to backend. Additionally skilled in machine learning and computer vision, developing intelligent systems for real-time data analysis and crowd intelligence. Passionate about creating innovative solutions that integrate scalable web technologies with advanced ML capabilities to solve complex problems.
 
               </motion.p>
             </motion.div>
