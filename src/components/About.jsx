@@ -1,30 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Award, Briefcase, GraduationCap, Users, Code2, User } from 'lucide-react';
+import { Briefcase, Code2 } from 'lucide-react';
 import profileImage from '../assets/Prudhvi.jpeg';
 
 const timeline = [
   {
-    year: "2024",
-    title: "Development Team Lead",
-    company: "K-Hub",
-    description: "Currently Leading development Team of Mern Stack applications and mentoring junior developers.",
-    icon: Users
-  },
-  {
-    year: "2024",
-    title: "Senior Developer Intern",
-    company: "RCTS, IIIT-Hyd",
-    description: "Focusing on web development and machine learning. Built a dynamic website from scratch and collaborated on ML projects. Developed a dynamic website for K-Hub as Senior Developer",
+    year: "Feb 2025 - Present",
+    title: "Junior Research Engineer",
+    company: "Smart City Living Lab, IIIT-Hyderabad",
+    description: "Developed Twin system for a water utility network, integrating IoT sensor data with a FastAPI backend and a PostgreSQL database. Implemented key features including hydraulic modeling for predictive analytics and failure simulations. Developed and deployed real-time facial recognition visitor counter and sentiment vision, utilizing technologies OpenCV, and TensorFlow. Contributed to an ML model for waste classification using computer vision. Designed and implemented web-based dashboards using Flask, FastAPI and React.js to visualize and analyze real-time data from computer vision systems.",
     icon: Code2
   },
   {
-    year: "2023-2024",
-    title: "Junior Developer Intern",
-    company: "RCTS, IIIT-Hyd",
-    description: "Developed user-friendly web sites and responsive pages using React.js and Node.js During this internship, I completed 6 individual tasks",
-    icon: User
+    year: "June 2024 - Jan 2025",
+    title: "Research Intern",
+    company: "Raj Reddy Center for Technology and Society, IIIT-Hyderabad",
+    description: "Designed and developed a dynamic website from scratch, and actively collaborated on machine learning projects, utilizing Technologies like Machine Learning, Python, React and Node.js. Designed, Developed and Deployed a Dynamic Website for K-Hub. Managed the full development lifecycle of Dev-Orbit, a web platform designed to support the Project-Nest college program, including frontend, backend, Restful APIs.",
+    icon: Briefcase
   }
 ];
 
