@@ -9,7 +9,7 @@ const timeline = [
     year: "Feb 2025 - Present",
     title: "Junior Research Engineer",
     company: "Smart City Living Lab, IIIT-Hyderabad",
-    description: "Developed Digital Twin system for water utility networks with IoT integration and hydraulic modeling. Built real-time facial recognition counter and waste classification ML models. Designed web dashboards using Flask, FastAPI, and React.js for real-time data visualization.",
+    description: "Developed Digital Twin system for water utility networks with IoT integration and hydraulic modeling. Developed and trained Machine Learning models for crowd density estimation and human activity recognition using real-time video data. Implemented deep learning pipelines leveraging computer vision and neural networks to analyze crowd behaviour patterns. Utilized CNN and transfer learning architectures for feature extraction and classification tasks.",
     icon: Code2
   },
   {
